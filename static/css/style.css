@@ -1,0 +1,40 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+a{
+    padding: 8px;
+    border: 1px solid #000000;
+    background-color: rgb(32, 18, 237);
+    border-radius: 30px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(36, 196, 36);
+}
+
+.food, .home, .shopping{
+    height: 30vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 50px;
+} 
+
+.food{
+    background-color: rgb(187, 137, 44);
+}
+
+.home{
+    background-color: rgb(209, 195, 195);
+}
+
+.shopping{
+    background-color: rgb(171, 13, 224);
+}
